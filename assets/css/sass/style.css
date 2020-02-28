@@ -1,0 +1,157 @@
+nav {
+  background-color: #121619;
+}
+nav img {
+  max-width: 136px;
+}
+nav .nav-link {
+  color: #fff;
+}
+nav .nav-link:hover {
+  color: #E56353;
+}
+nav i {
+  color: #fff;
+}
+
+footer {
+  background-color: #121619;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+footer img {
+  max-width: 136px;
+}
+
+header {
+  background-image: url("../../images/post-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 750px;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+.titulo {
+  font-family: "Playfair Display";
+  color: #fff;
+  font-style: italic;
+  font-size: 70px;
+  margin: 150px;
+}
+
+h3 {
+  font-family: "Roboto";
+  font-size: 18px;
+  color: #6C6E70;
+}
+
+#texto p {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 38px;
+  color: #6C6E70;
+  font-weight: lighter;
+}
+
+.rojo {
+  color: #D76C69;
+}
+
+.noe {
+  font-family: "Playfair Display";
+  color: #121619;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.pe {
+  font-family: "Roboto";
+  font-size: 12px;
+  color: #6C6E70;
+  line-height: 38px;
+}
+
+.button {
+  background-color: #6C6E70;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.flecha {
+  color: #fff;
+  font-size: 50px;
+  padding-top: 150px;
+}
+
+body {
+  padding-top: 81px;
+}
+
+.redondo img {
+  border-radius: 50%;
+  float: left;
+  margin-right: 40px;
+}
+
+.fondo_gris {
+  background-color: #E6E7E7;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.page-link {
+  position: relative;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #121619;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+}
+
+.pagination a.active {
+  background-color: #6C6E70;
+  color: white;
+}
+
+.page-link:hover {
+  color: #121619;
+}
+
+.textosflo {
+  float: left;
+}
+
+hr {
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.pagination li.page-item:first-child a.page-link {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.pagination li.page-item:last-child a.page-link {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.pading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */

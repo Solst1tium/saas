@@ -1,0 +1,70 @@
+@import '../abstracts/mixins';
+
+
+body{
+	padding-top: 81px;
+}
+
+.redondo img {
+  border-radius: 50%;
+  @include flotar (left);
+  margin-right: 40px;
+}
+
+.fondo_gris{
+	  background-color: #E6E7E7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #121619;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+
+}
+
+
+.pagination a.active {
+  background-color: #6C6E70;
+  color: white;
+}
+
+.page-link:hover {
+  
+    color: #121619;
+    
+}
+
+.textosflo{
+ @include flotar (left);
+	
+}
+
+hr {
+    
+border-top: 2px solid rgba(0,0,0,.1);
+}
+
+.pagination li.page-item:first-child a.page-link  {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px ;
+}
+
+.pagination  {
+  li.page-item:last-child a.page-link
+    {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+}
+
+.pading{
+  padding-top: 80px;
+  padding-bottom: 50px;
+}

@@ -1,0 +1,20 @@
+nav {
+	
+	background-color: #121619;
+
+	img {
+		max-width: 136px;
+		}
+
+	.nav-link{
+		color: #fff;
+
+		&:hover {
+			color: #E56353;
+		}
+	}
+
+	i {
+	color: #fff;
+	}
+}
