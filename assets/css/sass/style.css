@@ -35,14 +35,26 @@ body {
   font-family: "Roboto";
 }
 
-.titulo {
-  font-family: "Playfair Display";
-  color: #fff;
-  font-style: italic;
-  font-size: 70px;
-  margin: 150px;
+@media screen and (min-width: 601px) {
+  .titulo {
+    font-family: "Playfair Display";
+    color: #fff;
+    font-style: italic;
+    font-size: 70px;
+    margin-top: 250px;
+    vertical-align: middle;
+  }
 }
-
+@media screen and (max-width: 600px) {
+  .titulo {
+    font-family: "Playfair Display";
+    color: #fff;
+    font-style: italic;
+    font-size: 30px;
+    margin-top: 250px;
+    vertical-align: middle;
+  }
+}
 h3 {
   font-family: "Roboto";
   font-size: 18px;
@@ -67,13 +79,20 @@ h3 {
   font-size: 30px;
   font-style: italic;
   font-weight: bolder;
+  margin-bottom: 0;
+  margin-top: 15px;
+  vertical-align: middle;
 }
 
-.pe {
+.descripcion_noemi {
   font-family: "Roboto";
   font-size: 12px;
   color: #6C6E70;
   line-height: 38px;
+  margin-bottom: 0;
+  margin-top: 25px;
+  margin-left: 75px;
+  vertical-align: middle;
 }
 
 .button {
@@ -93,6 +112,7 @@ h3 {
   color: #fff;
   font-size: 50px;
   padding-top: 150px;
+  position: absolute;
 }
 
 body {
@@ -101,14 +121,13 @@ body {
 
 .redondo img {
   border-radius: 50%;
-  float: left;
-  margin-right: 40px;
+  vertical-align: middle;
 }
 
 .fondo_gris {
   background-color: #E6E7E7;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .page-link {

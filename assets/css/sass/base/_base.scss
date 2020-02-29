@@ -6,15 +6,14 @@ body{
 }
 
 .redondo img {
-  border-radius: 50%;
-  @include flotar (left);
-  margin-right: 40px;
+  border-radius: 50%; 
+  vertical-align: middle;
 }
 
 .fondo_gris{
 	  background-color: #E6E7E7;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .page-link {

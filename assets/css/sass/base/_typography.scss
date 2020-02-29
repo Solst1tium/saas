@@ -1,17 +1,39 @@
 @import '../abstracts/variables';
 
+
+
 body
 {
 	font-family:$texto_principal;
 }
 
+
+@media screen and (min-width: 601px) {
+  
 .titulo{	
  font-family: $playfair;
  color: #fff;
  font-style: italic;
-  font-size: 70px;
-  margin: 150px;
+  font-size: 70px;  
+  margin-top: 250px;
+  vertical-align: middle;
 }
+
+}
+
+@media screen and (max-width: 600px) {
+ .titulo{	
+ font-family: $playfair;
+ color: #fff;
+ font-style: italic;
+  font-size: 30px;  
+  margin-top: 250px;
+  vertical-align: middle;
+}
+}
+
+
+
 
 h3{	
  font-family: $texto_principal;
@@ -28,6 +50,7 @@ h3{
 }
 .rojo{
 	color: #D76C69;	
+	
 }
 
 .noe{
@@ -36,13 +59,20 @@ font-family: $playfair;
   font-size: 30px;
   font-style: italic;
   font-weight: bolder;	
+  margin-bottom: 0;
+  margin-top: 15px;
+  vertical-align: middle;
 }
 
-.pe{
+.descripcion_noemi{
 font-family: $texto_principal;
  font-size: 12px;
  color: #6C6E70;
  line-height: 38px;
+  margin-bottom: 0;
+  margin-top: 25px;
+  margin-left: 75px;
+vertical-align: middle;
 	
 }
 
